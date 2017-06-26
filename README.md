@@ -1,8 +1,19 @@
 # faas-figlet
 FaaS Figlet image
 
-deploy FaaS first:
+Try on PWD:
 
+```
+http://play-with-docker.com/?stack=https://raw.githubusercontent.com/jmkhael/faas-figlet/master/docker-compose.yml&stack_name=func
+```
+
+Alternatively, you can deploy FaaS gateway and the figlet function locally:
+```
+git clone https://github.com/jmkhael/faas-figlet
+docker stack deploy -c docker-compose.yml figlet
+```
+
+Or deploy the full FaaS (with prometheus and others)
 ```
 git clone https://github.com/alexellis/faas && \
   cd faas && \

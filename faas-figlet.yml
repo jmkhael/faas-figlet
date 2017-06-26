@@ -1,0 +1,7 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  figlet:
+    image: jmkhael/faas-figlet
