@@ -1,1 +1,1 @@
-curl http://jmkhael-lx:8080/function/figlet -d 'Hello, FaaS, world'
+curl http://localhost:8080/function/func_figlet -d 'Hello, FaaS, world'
