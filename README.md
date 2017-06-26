@@ -1,7 +1,7 @@
 # faas-figlet
-FaaS Figlet image
+FaaS Figlet image.
 
-Try on PWD:
+You can either try it in PWD, or locally.
 
 [![Try in PWD](https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png)](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/jmkhael/faas-figlet/master/docker-compose.yml&stack_name=func)
 
@@ -9,6 +9,14 @@ then:
 
 ```
 curl http://localhost:8080/function/func_figlet -d 'Hello, FaaS, world'
+```
+
+```
+ _   _      _ _          _____           ____                        _     _
+| | | | ___| | | ___    |  ___|_ _  __ _/ ___|   __      _____  _ __| | __| |
+| |_| |/ _ \ | |/ _ \   | |_ / _` |/ _` \___ \   \ \ /\ / / _ \| '__| |/ _` |
+|  _  |  __/ | | (_) |  |  _| (_| | (_| |___) |   \ V  V / (_) | |  | | (_| |
+|_| |_|\___|_|_|\___( ) |_|  \__,_|\__,_|____( )   \_/\_/ \___/|_|  |_|\__,_|
 ```
 
 Alternatively, you can deploy FaaS gateway and the figlet function locally:
