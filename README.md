@@ -8,7 +8,7 @@ http://play-with-docker.com/?stack=https://raw.githubusercontent.com/jmkhael/faa
 then:
 
 ```
-curl http://localhost:8080/function/func_figlet -d 'Hello, world'
+curl http://localhost:8080/function/func_figlet -d 'Hello, FaaS, world'
 ```
 
 Alternatively, you can deploy FaaS gateway and the figlet function locally:
