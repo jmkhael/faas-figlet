@@ -3,8 +3,12 @@ FaaS Figlet image
 
 Try on PWD:
 
-```
 http://play-with-docker.com/?stack=https://raw.githubusercontent.com/jmkhael/faas-figlet/master/docker-compose.yml&stack_name=func
+
+then:
+
+```
+curl http://localhost:8080/function/func_figlet -d 'Hello, world'
 ```
 
 Alternatively, you can deploy FaaS gateway and the figlet function locally:
