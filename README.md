@@ -3,7 +3,7 @@ FaaS Figlet image
 
 Try on PWD:
 
-[![Try in PWD](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/jmkhael/faas-figlet/master/docker-compose.yml&stack_name=func)
+[![Try in PWD](https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png)](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/jmkhael/faas-figlet/master/docker-compose.yml&stack_name=func)
 
 then:
 
