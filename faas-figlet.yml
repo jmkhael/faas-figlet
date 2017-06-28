@@ -4,6 +4,6 @@ provider:
   network: "func_functions" # this is optional and defaults to func_functions
 
 functions:
-  figlet_figlet:
+  func_figlet:
     image: jmkhael/faas-figlet
     fprocess: figlet
