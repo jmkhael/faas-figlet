@@ -1,5 +1,5 @@
 # faas-figlet
-FaaS Figlet image.
+OpenFaaS Figlet image.
 
 This repository comes with the blog post http://jmkhael.io/create-a-serverless-ascii-banner-with-faas/
 
@@ -21,13 +21,13 @@ curl http://localhost:8080/function/func_figlet -d 'Hello, FaaS, world'
 |_| |_|\___|_|_|\___( ) |_|  \__,_|\__,_|____( )   \_/\_/ \___/|_|  |_|\__,_|
 ```
 
-Alternatively, you can deploy FaaS gateway and the figlet function locally:
+Alternatively, you can deploy OpenFaaS gateway and the figlet function locally:
 ```
 git clone https://github.com/jmkhael/faas-figlet
 docker stack deploy -c docker-compose.yml figlet
 ```
 
-Or deploy the full FaaS (with prometheus and others)
+Or deploy the full OpenFaaS (with prometheus and others)
 ```
 git clone https://github.com/alexellis/faas && \
   cd faas && \
