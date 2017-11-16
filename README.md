@@ -1,6 +1,8 @@
 # faas-figlet
 FaaS Figlet image.
 
+This repository comes with the blog post http://jmkhael.io/create-a-serverless-ascii-banner-with-faas/
+
 You can either try it in PWD, or locally.
 
 [![Try in PWD](https://cdn.rawgit.com/play-with-docker/stacks/cff22438/assets/images/button.png)](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/jmkhael/faas-figlet/master/docker-compose.yml&stack_name=func)
